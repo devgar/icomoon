@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?75fam4');
-  src:  url('fonts/icomoon.eot?75fam4#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?75fam4') format('truetype'),
-    url('fonts/icomoon.woff?75fam4') format('woff'),
-    url('fonts/icomoon.svg?75fam4#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?mce26d');
+  src:  url('fonts/icomoon.eot?mce26d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mce26d') format('truetype'),
+    url('fonts/icomoon.woff?mce26d') format('woff'),
+    url('fonts/icomoon.svg?mce26d#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-map2:before {
+  content: "\e94c";
+}
 .icon-google:before {
   content: "\ea88";
 }
@@ -50,7 +71,4 @@
 }
 .icon-youtube2:before {
   content: "\ea9e";
-}
-.icon-soundcloud:before {
-  content: "\eac3";
 }
